@@ -2,7 +2,8 @@
 # config de civicrm ?
 
 ##############################################
-#  
+# Drupal, inspired by
+# https://github.com/docker-library/drupal/blob/ad579f7702b32722dd11af054e2f8e11ef269fd9/7/apache/Dockerfile 
 FROM php:5.6-apache
 
 RUN a2enmod rewrite
